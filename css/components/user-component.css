@@ -64,6 +64,6 @@
   margin-bottom: 10px;
 }
 
-.user-component:not(.user-component:first-child) {
+a > .user-component:not(a:first-child > .user-component) {
   margin-top: 30px;
 }

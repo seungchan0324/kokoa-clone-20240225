@@ -1,26 +1,27 @@
-.icon-row {
+.icon:not(.icons > .icon) {
   display: flex;
   justify-content: space-between;
 }
 
-.icon-row__icon {
+.icon__icon {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.icon-row__icon i {
+.icon__icon i {
   font-size: 35px;
 }
 
-.icon-row__icon span {
+.icon__icon span {
   margin-top: 18px;
 }
 
-.icon-row:nth-child(3) {
-  justify-content: start;
+.icons {
+  display: flex;
+  justify-content: space-between;
 }
 
-.icon-row:nth-child(3) .icon-row__icon:last-child {
-  margin-left: 22%;
+.icons > .icon > .icon__icon:nth-child(2) {
+  margin-top: 50px;
 }
