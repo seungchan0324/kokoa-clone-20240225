@@ -24,12 +24,16 @@
   bottom: 15px;
 }
 
+.screen-header__notification,
 .nav-settings__notification {
   background-color: tomato;
   width: 4px;
   height: 4px;
   border-radius: 50%;
   position: absolute;
+}
+
+.nav-settings__notification {
   left: 27px;
   top: -8px;
 }

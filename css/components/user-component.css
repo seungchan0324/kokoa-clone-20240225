@@ -21,8 +21,19 @@
 
 .user-component__subtitle {
   margin-top: 8px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.user-component__subtitle h6 {
   font-size: 17px;
   color: rgba(0, 0, 0, 0.5);
+}
+
+.user-component__subtitle span {
+  margin-left: 5px;
+  color: #e67e7b;
 }
 
 .user-component__avatar--xl {
@@ -51,4 +62,8 @@
   display: block;
   font-size: 14px;
   margin-bottom: 10px;
+}
+
+.user-component:not(.user-component:first-child) {
+  margin-top: 30px;
 }
